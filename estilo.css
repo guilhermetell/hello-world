@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*
+--------------------------------------------------------------------------------
+-------------------------- SUGESTÕES DE CORES: ---------------------------------
+
+     Vermelho: rgba(255, 50, 50, 1);
+     Verde: rgba(50, 200, 50, 1);
+
+--------------------------------------------------------------------------------
+------------------------------- DROPDOWNS --------------------------------------
+--------------------------------------------------------------------------------
+*/
+
+select{
+    background-color: rgba(255, 50, 50, 1);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    /*
+    Esconde as setas dos selects (dropdowns).
+    */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+option{
+     background-color: rgba(255, 90, 90, 1);
+}
+
+/*
+--------------------------------------------------------------------------------
+-------------------------------- CHECKBOXES ------------------------------------
+--------------------------------------------------------------------------------
+*/
+
+input[type=checkbox] {
+    padding: 10px;
+    border-radius:50px;
+    border: none;
+    background-color: rgba(50, 200, 50, 1);
+
+    -webkit-appearance:button;
+    -moz-appearance:button;
+}
+input[type=checkbox]:checked {
+    background-color: rgba(255, 50, 50, 1);
+}
+input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px;
+}
+input[type=checkbox]:focus {
+     outline: none;
+}
+/*
+--------------------------------------------------------------------------------
+---------------------------------- Textos --------------------------------------
+--------------------------------------------------------------------------------
+*/
+
+input[type=text]{
+     background-color: rgba(200, 200, 200, 1);
+     border: none;
+     height: 26px;
+     border-radius: 6px;
+     position: absolute;
+     display: inline;
+}
+input[type=text]:focus{
+     background-color: rgba(235, 235, 235, 1);
+     border: 2px solid rgba(200, 200, 200, 1);
+     transition: background-color .5s;
+     outline: none;
+     position: relative;
+     display: block;
+     margin-bottom: -16px;
+}
+input[onemptied=vazio]{
+     background-color: rgba(235, 235, 235, 1);
+     border: 2px solid rgba(200, 200, 200, 1);
+     transition: background-color .5s;
+     outline: none;
+     position: relative;
+     display: block;
+     margin-bottom: -16px;
+}
+label{
+
+}
+
+/*
+--------------------------------------------------------------------------------
+---------------------------------- Geral ---------------------------------------
+--------------------------------------------------------------------------------
+*/
+
+
+
+fieldset{
+     height: 100px;
+
+}
+p{
+
+}
